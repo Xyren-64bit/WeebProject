@@ -127,7 +127,7 @@ async def dyno_usage(dyno):
             "`[HEROKU]\nPlease setup your`  "
             "**HEROKU_APP_NAME** and ***HEROKU_API_KEY**."
         )
-    await dyno.edit("`Getting Information...`")
+    await dyno.edit("`Getting Information..`")
     useragent = (
         "Mozilla/5.0 (Linux; Android 10; SM-G975F) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
